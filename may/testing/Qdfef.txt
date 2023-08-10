@@ -1,0 +1,91 @@
+Hello!!!
+I'm smit Jogani
+I am a Student
+
+
+
+
+print('what do you want to do(lock or retrive)?')
+inp = int(input('1 for lock , 2 for retreive :'))
+inp100 = int(input('1 for exercise information , 2 for food information'))
+inp2 = int(input('1 for harry , 2 for guri , 3 for rakesh :'))
+if inp == 1 and inp2 == 1 and inp100 == 1:
+    with open('harry-exercise.txt' , 'a') as np:
+        inp3 = int(input('no. of items?  :'))
+        for items in range(0,inp3):
+            print(' write item',items + 1,' :')
+            inp99 = input('')
+            np.write(inp99+'\n')
+        print('succesfully written')
+if inp == 2 and inp2 == 1 and inp100 == 1:
+    f = open('harry-exercise.txt')
+    print(f.read())
+    f.close()
+
+if inp == 1 and inp2 == 1 and inp100 == 2:
+    with open('harry-food.txt' , 'a') as np:
+        inp3 = int(input('no. of items?  :'))
+        for items in range(0,inp3):
+            print(' write item',items + 1,' :')
+            inp99 = input('')
+            np.write(inp99+'\n')
+        print('succesfully written')
+
+if inp == 2 and inp2 == 1 and inp100 == 2:
+    f = open('harry-food.txt')
+    print(f.read())
+    f.close()
+
+if inp == 1 and inp2 == 2 and inp100 == 1:
+    with open('guri-exercise.txt','a') as np:
+        inp3 = int(input('no. of items?  :'))
+        for items in range(0, inp3):
+            print(' write item', items + 1, ' :')
+            inp99 = input('')
+            np.write(inp99+'\n')
+        print('succesfully written')
+
+if inp == 2 and inp2 == 2 and inp100 == 1:
+    f = open('guri-exrcise.txt')
+    print(f.read())
+    f.close()
+if inp == 1 and inp2 == 2 and inp100 == 2:
+    with open('guri-food.txt','a') as np:
+        inp3 = int(input('no. of items?  :'))
+        for items in range(0, inp3):
+            print(' write item', items + 1, ' :')
+            inp99 = input('')
+            np.write(inp99+'\n')
+        print('succesfully written')
+
+if inp == 2 and inp2 == 2 and inp100 == 2:
+    f = open('guri-food.txt')
+    print(f.read())
+    f.close()
+
+if inp == 1 and inp2 == 3 and inp100 == 1:
+    with open('rakesh-exercise.txt','a') as np:
+        inp3 = int(input('no. of items?  :'))
+        for items in range(0, inp3):
+            print(' write item', items + 1, ' :')
+            inp99 = input('')
+            np.write(inp99 + '\n')
+        print('succesfully written')
+
+if inp == 2 and inp2 == 3 and inp100 == 1:
+    f = open('rakesh-exercise.txt')
+    print(f.read())
+    f.close()
+
+if inp == 1 and inp2 == 3 and inp100 == 2:
+    with open('rakesh-food.txt','a') as np:
+        inp3 = int(input('no. of items?  :'))
+        for items in range(0, inp3):
+            print(' write item', items + 1, ' :')
+            inp99 = input('')
+            np.write(inp99 + '\n')
+        print('succesfully written')
+if inp == 2 and inp2 == 3 and inp100 == 2:
+    f = open('rakesh-food.txt')
+    print(f.read())
+    f.close()

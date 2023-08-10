@@ -1,0 +1,25 @@
+---> SPECIAL SEQUENCES
+
+1)  \d returns the match where the string contains digits (numbers from 0-9)
+2)  \D returns the match where the string Does Not contains digits
+3)  \A returns a match if the specified characters are at the beginning of the string
+4)  \s returns the match where the string contains white space character
+5)  \w returns the match where the string contains any word character (character from a to z , a\digits from 0 - 9 , and underscore_character)
+6)  \s returns the match where the string Does Not contains white space character
+7)  \W returns a match where thee string Does Not contains any word characters
+8)  \z returns if the specified characters are at the end of the string
+9)  \b returns a match where the specified characters are at the beginning or at the end of word
+10) \B returns a match where the specified character are present, but not at the beginning of a word
+
+---> Meta characters
+
+1) [] a set of characters
+2) \ signals a special sequence (can also be used to escape special characcters)
+3) . Any characcter (except newline character)
+4) ^ starts with
+5) $  ends with
+6) * Zero or more occurences
+7) + One or more occurences
+8) {} Excacetly the specified number of occurences
+9) | either or
+10) () capture and group
